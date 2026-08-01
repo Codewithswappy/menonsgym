@@ -119,7 +119,7 @@ export default function Hero({ onOpenBooking }: HeroProps) {
               </button>
 
               <a
-                href={`https://wa.me/${GYM_DETAILS.whatsapp}?text=${encodeURIComponent("Hi MENON'S GYM! I want to inquire about gym membership")}`}
+                href={`https://wa.me/${GYM_DETAILS.whatsapp.replace(/[^0-9]/g, '')}?text=${encodeURIComponent("Hi MENON'S GYM! I want to inquire about gym membership")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs uppercase tracking-wider shadow-xs hover:shadow-md transition-colors flex items-center justify-center gap-2 cursor-pointer"

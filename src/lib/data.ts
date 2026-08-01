@@ -5,7 +5,7 @@ export const GYM_DETAILS = {
   subheading: 'A premier local fitness center in Greater Khanda, Panvel engineered for real strength, body recomposition, and personal coaching.',
   address: '1st Floor, Tulsi Prerna, Khanda Colony, Plot 9, Sector - 1, Greater Khanda, Maharashtra 410206',
   phone: '099874 56736',
-  whatsapp: '09987456736',
+  whatsapp: '+919987456736',
   whatsappMessage: "Hi MENON'S GYM! I would like to book my free trial session.",
   email: 'contact@menonsgym.com',
   hours: {
